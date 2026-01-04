@@ -7,6 +7,11 @@ I was inspired by TikTok. I share my favorites on social media, and I get a lot 
 ## What it does
 This project takes a comment as input and the server sends the text to Gemini API. The API analyzes the text and determines three things: the tone, the toxicity, and then rewrites the comment. The web app saves every resulting analysis into MongoDB so I have a history of the analysis.
 
+## Example
+<img width="1256" height="694" alt="Screenshot 2026-01-03 at 9 42 01 PM" src="https://github.com/user-attachments/assets/70025dc9-5c47-4280-a1b0-02e9f9bfb16c" />
+
+<img width="1254" height="685" alt="Screenshot 2026-01-03 at 9 42 15 PM" src="https://github.com/user-attachments/assets/d45da63c-f538-405b-8b10-c26f3717d4cc" />
+
 ## How we built it
 I built it using VS Code, JavaScript. I installed the  'MongoDB with Vscode' extension and made a string connection with the server.  I added the Gemini API key to the JavaScript file and made a post request. 
  
