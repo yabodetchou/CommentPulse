@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CommentPulse</title>
+  <style>
+    
+    body { 
+      font-family: Arial; 
+      padding: 40px; 
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    textarea {
+       width: 100%; height: 100px;
+       }
+    button { 
+      padding: 10px; margin-top: 10px; 
+    }
+    pre {
+       background: #f4f4f4; padding: 15px;
+       }
+  </style>
+</head>
+<body>
+
+<h2>CommentPulse</h2>
+<p>Analyze tone and toxicity of a comment</p>
+
+<textarea id="text"></textarea>
+<br />
+<button onclick="analyze()">Analyze</button>
+
+<pre id="result"></pre>
+
+<script>
+async function analyze() {
+  const text = document.getElementById("text").value;
+  const res = await fetch("/analyze", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ text })
+  });
+
+  const data = await res.json();
+  document.getElementById("result").textContent =
+    JSON.stringify(data, null, 2);
+}
+</script>
+
+</body>
+</html>
+
+
