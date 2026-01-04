@@ -1,11 +1,12 @@
 # CommentPulse
 Analyze the tone and toxicity of a comment
-
+## Hackathon
+This is my sucmission for the hack for hackers hackathon organized for MLH (Majot Leauge Hacking)
 ## Inspiration
 I was inspired by TikTok. I share my favorites on social media, and I get a lot of positive comments under my posts, but I also follow a lot of creators who receive a ton of hate comments. You can also view hate comments on the for you page, and they affect not only the creator but the readers, too. It affects mental health and influences the reader's behaviors and thoughts about the person being bullied. It is important to pay attention to how one uses their voice on social media so we can prevent cyberbullying. 
 
 ## What it does
-This project takes a comment as input and the server sends the text to Gemini API. The API analyzes the text and determines three things: the tone, the toxicity, and then rewrites the comment. The web app saves every resulting analysis into MongoDB so I have a history of the analysis.
+I implemented a generative AI model using the Google Gemini API. This project takes a comment as input and the server sends the text to Gemini API. The API analyzes the text and determines three things: the tone, the toxicity, and then rewrites the comment. The web app saves every resulting analysis into MongoDB so I have a history of the analysis.
 
 ## Example
 <img width="1256" height="694" alt="Screenshot 2026-01-03 at 9 42 01 PM" src="https://github.com/user-attachments/assets/70025dc9-5c47-4280-a1b0-02e9f9bfb16c" />
