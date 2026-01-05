@@ -49,6 +49,44 @@ Built as a hackathon project, CommentPulse demonstrates how **Generative AI can 
 
 ---
 
+- Shows it’s a terminal command  
+- Helps readers copy-paste easily  
+- Standard practice in READMEs  
+
+---
+
+💡 **Best practice for READMEs:**  
+- Keep **commands in a code block** (bash/sh)  
+- Keep instructions/text **outside the block**  
+
+For example:
+
+```markdown
+Step 2: Install dependencies by running:
+
+```bash
+npm install
+
+- Shows it’s a terminal command  
+- Helps readers copy-paste easily  
+- Standard practice in READMEs  
+
+---
+
+💡 **Best practice for READMEs:**  
+- Keep **commands in a code block** (bash/sh)  
+- Keep instructions/text **outside the block**  
+
+For example:
+
+```markdown
+Step 2: Install dependencies by running:
+
+```bash
+npm install
+
+
+
 ### 📥 Step 1: Clone the Repository
 
 ```bash
@@ -110,5 +148,24 @@ Public deployment (Vercel / Render)
 ### 👤 Author
 Yabo Detchou
 GitHub: https://github.com/yabodetchou
+
+
+- Shows it’s a terminal command  
+- Helps readers copy-paste easily  
+- Standard practice in READMEs  
+
+---
+
+💡 **Best practice for READMEs:**  
+- Keep **commands in a code block** (bash/sh)  
+- Keep instructions/text **outside the block**  
+
+For example:
+
+```markdown
+Step 2: Install dependencies by running:
+
+```bash
+npm install
 
 
