@@ -27,7 +27,7 @@ Built as a hackathon project, CommentPulse demonstrates how **Generative AI can 
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. User submits a comment through the web interface  
 2. The backend server receives the input  
@@ -39,9 +39,9 @@ Built as a hackathon project, CommentPulse demonstrates how **Generative AI can 
 
 ---
 
-## ⬇️ Download & Run the Application
+## Download & Run the Application
 
-### ✅ Prerequisites
+### Prerequisites
 
 - **Node.js** (v18 or higher recommended)
 - **MongoDB** (local or MongoDB Atlas)
