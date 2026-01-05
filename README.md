@@ -112,10 +112,6 @@ Yabo Detchou
 GitHub: https://github.com/yabodetchou
 
 
-- Shows it’s a terminal command  
-- Helps readers copy-paste easily  
-- Standard practice in READMEs  
-
 ---
 
 
