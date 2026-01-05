@@ -49,62 +49,24 @@ Built as a hackathon project, CommentPulse demonstrates how **Generative AI can 
 
 ---
 
-- Shows it’s a terminal command  
-- Helps readers copy-paste easily  
-- Standard practice in READMEs  
-
----
-
-💡 **Best practice for READMEs:**  
-- Keep **commands in a code block** (bash/sh)  
-- Keep instructions/text **outside the block**  
-
-For example:
-
-```markdown
-Step 2: Install dependencies by running:
-
-```bash
-npm install
-
-- Shows it’s a terminal command  
-- Helps readers copy-paste easily  
-- Standard practice in READMEs  
-
----
-
-💡 **Best practice for READMEs:**  
-- Keep **commands in a code block** (bash/sh)  
-- Keep instructions/text **outside the block**  
-
-For example:
-
-```markdown
-Step 2: Install dependencies by running:
-
-```bash
-npm install
-
-
-
 ### 📥 Step 1: Clone the Repository
 
-```bash
+
 git clone https://github.com/yabodetchou/CommentPulse.git
 cd CommentPulse
 
 ---
-```markdown
+
 ### Step 2: Install Dependencies
 
-```bash
+
 npm install
 
 —--
 
 ### 🔐 Step 3: Configure Environment Variables
 Create a .env file in the root directory and add:
-```bash
+`
 GEMINI_API_KEY=your_gemini_api_key_here
 MONGODB_URI=your_mongodb_connection_string
 
@@ -112,7 +74,7 @@ MONGODB_URI=your_mongodb_connection_string
 
 ### ▶️ Step 4: Start the Server
 
-```bash
+`
 node server.js
 Once the server starts, open your browser and navigate to:
 http://localhost:3000
