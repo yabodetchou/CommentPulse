@@ -1,3 +1,4 @@
+
 # CommentPulse 🗣️📊
 
 CommentPulse is an AI-powered web application that analyzes the tone and toxicity of user comments and rewrites them in a more constructive, respectful way. The project leverages **Google Gemini** for natural language understanding and **MongoDB** for storing analysis history.
@@ -53,3 +54,61 @@ Built as a hackathon project, CommentPulse demonstrates how **Generative AI can 
 ```bash
 git clone https://github.com/yabodetchou/CommentPulse.git
 cd CommentPulse
+
+---
+
+### Step 2: Install Dependencies
+
+```bash
+npm install
+
+—--
+
+### 🔐 Step 3: Configure Environment Variables
+Create a .env file in the root directory and add:
+```bash
+GEMINI_API_KEY=your_gemini_api_key_here
+MONGODB_URI=your_mongodb_connection_string
+
+—--
+
+### ▶️ Step 4: Start the Server
+
+```bash
+node server.js
+Once the server starts, open your browser and navigate to:
+http://localhost:3000
+
+—--
+
+### 📸 Demo
+Screenshots and a demo video are included in the repository to demonstrate the application workflow and user experience.
+
+—--
+
+### 📚 What I Learned
+Integrating Generative AI APIs into production-style applications
+Designing end-to-end AI pipelines (input → model → output → persistence)
+Managing API keys and environment variables securely
+Building a full-stack web application using Node.js and MongoDB
+
+—--
+
+### 🏆 Context
+This project was built as part of the Hack for Hackers (MLH) Hackathon, focused on improving online communication through AI-powered moderation.
+
+—--
+
+### 📈 Future Improvements
+Sentiment and toxicity score visualization
+More granular toxicity categories
+User authentication and saved analysis history
+Public deployment (Vercel / Render)
+
+—--
+
+### 👤 Author
+Yabo Detchou
+GitHub: https://github.com/yabodetchou
+
+
