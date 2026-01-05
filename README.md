@@ -56,7 +56,7 @@ git clone https://github.com/yabodetchou/CommentPulse.git
 cd CommentPulse
 
 ---
-
+```markdown
 ### Step 2: Install Dependencies
 
 ```bash
